@@ -6,7 +6,7 @@ import com.kingshuk.datastructures.collectionsandgenerics.collectionelements.Foo
  * for practicing generics
  * Created by CO21321 on 2/8/2018.
  */
-public class RunnableCumFootballPlayer extends FootballPlayer implements Runnable, Comparable{
+public class RunnableCumFootballPlayer extends FootballPlayer implements Runnable, Comparable<RunnableCumFootballPlayer>{
 
     @Override
     public void run() {
@@ -14,7 +14,7 @@ public class RunnableCumFootballPlayer extends FootballPlayer implements Runnabl
     }
 
     @Override
-    public int compareTo(Object o) {
+    public int compareTo(RunnableCumFootballPlayer o) {
         return 0;
     }
 }

@@ -5,7 +5,7 @@ import com.kingshuk.datastructures.collectionsandgenerics.collectionelements.Foo
 /**A class that holds multiple restrictions
  * Created by CO21321 on 2/8/2018.
  */
-public class MultipleRestrictionsByGenerics<T extends FootballPlayer&Runnable&Comparable> {
+public class MultipleRestrictionsByGenerics<T extends FootballPlayer&Runnable&Comparable<T>> {
     /**
      * The most important and tricky thing in the above declaration is that
      * even though the statement says "extends", interfaces are allowed on the right of extends keyword

@@ -1,5 +1,6 @@
 package com.kingshuk.datastructures.collectionsandgenerics.sortingpractice;
 
+import java.util.NavigableSet;
 import java.util.Set;
 import java.util.TreeSet;
 
@@ -39,6 +40,14 @@ public class TreeSetWithoutLambdaHarness {
 		employeeSet2.add(new Employee(12589, "Amit"));
 		
 		System.out.println("Custom sorting order of tree set (ascending order) \n"+employeeSet2);
+		
+		
+		NavigableSet<Employee> employeeSet3 = new TreeSet<>();
+		employeeSet3.add(new Employee(232649, "Kingshuk"));
+		employeeSet3.add(new Employee(457995, "Deeksha"));
+		employeeSet3.add(new Employee(12589, "Amit"));
+		
+		System.out.println("Custom sorting order of tree set by calling descendingSet method \n"+employeeSet3.descendingSet());
 		
 	}
 

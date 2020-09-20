@@ -1,6 +1,5 @@
 package com.kingshuk.datastructures.collectionsandgenerics.mappractice;
 
-import java.util.LinkedHashMap;
 import java.util.Map;
 
 import com.kingshuk.datastructures.collectionsandgenerics.utility.CommonMapGenerator;
